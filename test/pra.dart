@@ -130,6 +130,8 @@ void main() {
   final String name1 = name11;     //変数を入れれる
   //const String name3 = name11;//コンパイル時定数
   //print(name3 + name1);
+
+  print('gitなぞ');
 }
 
   class Person{
