@@ -132,6 +132,37 @@ void main() {
   //print(name3 + name1);
 
   print('gitなぞ');
+
+  //static:インスタントなしでアクセルできる変数
+
+  //比較演算子  == >= <= && ||
+  //論理演算子
+  int numnum = 0;
+  if(numnum == 0){
+    print(numnum);
+  } else if(numnum == 1){
+    print('numnum は1である');
+  } else {
+    print("numnumは0ではない");
+  }
+
+  //三項演算子を用いた条件分岐
+  numnum == 0 ?  print("numnumは0である") :print("numnumは0でない");
+
+  //スコープ：変数を使える範囲
+  //変数は定義された階層以下でしか使えない
+
+  //for in
+  List<String> nameList2 = ["あ","い","う"];
+  for(String name in nameList2){
+    print(name);
+  }
+  for (int i = 0 ;i<nameList2.length; i++){
+    print(nameList2[i]);
+  }
+
+
+
 }
 
   class Person{
